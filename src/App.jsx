@@ -36,7 +36,7 @@ const EditSecurity = () => {
       <Table className="mainTable" style={{ gridTemplateColumns: 'min-content 1fr 1fr 1fr' }}>
         <Table.Header>
           <Table.HeaderRow>
-          <th></th>
+          <th>null</th>
           <th>Inventory</th>
           <th>Loading</th>
           <th>Shipping</th>
@@ -45,10 +45,21 @@ const EditSecurity = () => {
         <tbody>
           {sampleData.map((user) => (
             <tr key={user.id}>
-              <td className="user">user</td>
               <td>{user.name}</td>
-              <td>{user.username}</td>
-              <td>{user.permissions?.loadingManage}</td>
+              <td>
+              <input type="checkbox" id="horns" name="horns" />
+              <input type="checkbox" id="horns" name="horns" />
+
+              </td>
+              <td>
+              <input type="checkbox" id="horns" name="horns" />
+              <input type="checkbox" id="horns" name="horns" />
+
+              </td>
+              <td>
+              <input type="checkbox" id="horns" name="horns" />
+              <input type="checkbox" id="horns" name="horns" />
+                  </td>
             </tr>
           ))}
         </tbody>
