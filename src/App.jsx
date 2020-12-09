@@ -59,18 +59,18 @@ const EditSecurity = () => {
             <tr key={user.id}>
               <td>{user.name}</td>
               <td>
-              <input type="checkbox" id="horns" name="horns" />
-              <input type="checkbox" id="horns" name="horns" />
+              <input type="checkbox"/>
+              <input type="checkbox" />
 
               </td>
               <td>
-              <input type="checkbox" id="horns" name="horns" />
-              <input type="checkbox" id="horns" name="horns" />
+              <input type="checkbox" />
+              <input type="checkbox" />
 
               </td>
               <td>
-              <input type="checkbox" id="horns" name="horns" />
-              <input type="checkbox" id="horns" name="horns" />
+              <input type="checkbox" />
+              <input type="checkbox" />ß
                   </td>
             </tr>
           ))}
