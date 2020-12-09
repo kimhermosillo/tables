@@ -58,19 +58,19 @@ const EditSecurity = () => {
           {sampleData.map((user) => (
             <tr key={user.id}>
               <td>{user.name}</td>
-              <td>
-              <input type="checkbox"/>
+              <td className="check">
+              <input  type="checkbox"/>
               <input type="checkbox" />
 
               </td>
-              <td>
+              <td className="check">
               <input type="checkbox" />
               <input type="checkbox" />
 
               </td>
-              <td>
+              <td className="check">
               <input type="checkbox" />
-              <input type="checkbox" />ß
+              <input type="checkbox" />
                   </td>
             </tr>
           ))}
