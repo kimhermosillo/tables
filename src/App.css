@@ -4,13 +4,24 @@ body {
 
 table {
   display: grid;
-  
+  background-color: lightcyan;
+  border: 3px black solid;
 }
 
 thead,
 tbody,
 tr {
   display: contents;
+}
+
+th.header {
+  background-color: pink;
+}
+
+th.permissions {
+  background-color: pink;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 /* th, */
@@ -26,7 +37,6 @@ table.mainTable {
 table.mainTable th {
   position: sticky;
   top: 0;
-  /* left: 0; */
 }
 
 th {

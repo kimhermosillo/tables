@@ -36,10 +36,22 @@ const EditSecurity = () => {
       <Table className="mainTable" style={{ gridTemplateColumns: 'min-content 1fr 1fr 1fr' }}>
         <Table.Header>
           <Table.HeaderRow>
-          <th>null</th>
-          <th>Inventory</th>
-          <th>Loading</th>
-          <th>Shipping</th>
+          <th className="header">null</th>
+          <th className="header">Inventory</th>
+          <th className="header">Loading</th>
+          <th className="header">Shipping</th>
+          </Table.HeaderRow>
+          <Table.HeaderRow>
+          <th className="header">null</th>
+          <th className="permissions">IO</th>
+          <th className="permissions"><span>IO</span> SP</th>
+          <th className="permissions"><span>SP</span> LM</th>
+          </Table.HeaderRow>
+          <Table.HeaderRow>
+          <th className="header">null</th>
+          <th className="permissions"><span>View</span> Manage</th>
+          <th className="permissions"><span>View</span> Manage</th>
+          <th className="permissions"><span>View</span> Manage</th>
           </Table.HeaderRow>
         </Table.Header>
         <tbody>
